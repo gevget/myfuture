@@ -28,7 +28,7 @@ import {
   X,
 } from '@phosphor-icons/react'
 
-const A = '/assets/'
+const A = `${import.meta.env.BASE_URL}assets/`
 
 type IconType = typeof Sparkle
 
